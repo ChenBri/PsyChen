@@ -1,5 +1,5 @@
 <template>
-  <section id="about_me" class="border-2 border-red-200">
+  <section id="about_me">
     <div class="flex flex-col lg:flex-row gap-0 md:gap-8">
       <div class="flex flex-col gap-4 basis-3/5">
         <h1>PsyChen</h1>
@@ -22,7 +22,7 @@
           more tools.
         </p>
       </div>
-      <div class="flex basis-2/5 border-2 border-white justify-end mt-12">
+      <div class="flex basis-2/5 justify-end mt-12">
         <div class="relative w-[80%]">
           <img
             src="../assets/images/Placeholder.png"
@@ -43,10 +43,12 @@
         </div>
       </div>
     </div>
-    <button
-      class="px-10 py-4 my-6 bg-psy-blue rounded-lg text-white font-quicksand"
-    >
-      <a href="#about_me">Contant Me</a>
-    </button>
+    <div class="flex justify-center lg:justify-start">
+      <button
+        class="px-10 py-4 mt-12 lg:mt-6 bg-psy-blue rounded-lg text-white font-quicksand"
+      >
+        <a href="#about_me" class="">Contant Me</a>
+      </button>
+    </div>
   </section>
 </template>
