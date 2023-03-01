@@ -7,16 +7,19 @@
 
 @layer base {
   h1 {
-    @apply text-3xl;
+    @apply text-3xl text-psy-dark-white;
   }
   h2 {
-    @apply text-2xl;
+    @apply text-2xl text-psy-blue;
   }
   h3 {
-    @apply text-xl;
+    @apply text-xl text-psy-blue;
+  }
+  h4 {
+    @apply text-lg text-white;
   }
   p {
-    @apply text-lg;
+    @apply text-base;
   }
   button {
     @apply text-lg;
