@@ -16,6 +16,10 @@ module.exports = {
         "psy-gray": "#596380",
         "psy-bg-dark": "#050E2B",
         "psy-bg-light": "#0A1841",
+        "psy-icon-dark-blue": "#616C94",
+      },
+      borderOpacity: {
+        15: "0.15",
       },
     },
     plugins: [],

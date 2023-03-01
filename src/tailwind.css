@@ -10,10 +10,10 @@
     @apply bg-psy-bg-dark;
   }
   h1 {
-    @apply text-5xl text-psy-dark-white font-bold font-roboto;
+    @apply text-4xl md:text-5xl text-psy-dark-white font-bold font-roboto;
   }
   h2 {
-    @apply text-4xl text-psy-blue font-bold font-roboto;
+    @apply text-3xl md:text-4xl text-psy-blue font-bold font-roboto;
   }
   h3 {
     @apply text-xl text-psy-blue font-roboto;
@@ -22,7 +22,7 @@
     @apply text-lg text-white;
   }
   p {
-    @apply text-[18px] text-white font-quicksand;
+    @apply text-[14px] md:text-[18px] text-white font-quicksand;
   }
   button {
     @apply text-lg;
@@ -38,5 +38,11 @@
 @layer utilities {
   .content {
     @apply p-8 md:p-12 max-w-[1400px] m-auto;
+  }
+  .rounded-border-blue-big {
+    @apply rounded-full border-psy-blue border-opacity-15 border-[20px];
+  }
+  .rounded-border-blue-small {
+    @apply rounded-full outline outline-[10px] outline-psy-icon-dark-blue/[.1] w-10 absolute;
   }
 }

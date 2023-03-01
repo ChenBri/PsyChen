@@ -1,6 +1,6 @@
 <template>
   <section id="about_me" class="border-2 border-red-200">
-    <div class="flex gap-8">
+    <div class="flex flex-col lg:flex-row gap-0 md:gap-8">
       <div class="flex flex-col gap-4 basis-3/5">
         <h1>PsyChen</h1>
         <h2>PsychoPy Experiment Creation</h2>
@@ -22,8 +22,25 @@
           more tools.
         </p>
       </div>
-      <div class="flex basis-2/5 border-2 border-white justify-end">
-        <div class="border-2 border-white w-[80%]">Image..</div>
+      <div class="flex basis-2/5 border-2 border-white justify-end mt-12">
+        <div class="relative w-[80%]">
+          <img
+            src="../assets/images/Placeholder.png"
+            class="rounded-border-blue-big"
+          />
+          <img
+            src="../assets/images/psychopy_logo.png"
+            class="left-[-70px] sm:left-[-80px] lg:left-[-25px] xl:left-[10px] lg:top-[10px] bottom-[195px] rounded-border-blue-small"
+          />
+          <img
+            src="../assets/images/python_logo.png"
+            class="left-[-60px] sm:left-[-60px] lg:left-[-60px] xl:left-[-40px] lg:top-[80px] bottom-[115px] sm:bottom-[110px] rounded-border-blue-small"
+          />
+          <img
+            src="../assets/images/javascript_logo.png"
+            class="left-[-30px] sm:left-[-20px] lg:left-[-60px] lg:top-[170px] bottom-[35px] rounded-border-blue-small"
+          />
+        </div>
       </div>
     </div>
     <button
