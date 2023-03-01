@@ -43,10 +43,10 @@ export default {
             </li>
           </ul>
         </div>
-        <div class="basis-1/2">
+        <div class="basis-1/2 flex items-center">
           <img
             src="./../assets/images/my_service.png"
-            class="rounded-[15px] 2xl:rounded-[10px] p-0 sm:p-6 md:p-12 xl:p-0"
+            class="rounded-[15px] p-0 sm:p-6 md:p-12 xl:p-0"
           />
         </div>
       </div>
