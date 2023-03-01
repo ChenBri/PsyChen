@@ -7,22 +7,22 @@
 
 @layer base {
   html {
-    @apply bg-blue-100;
+    @apply bg-psy-bg-dark;
   }
   h1 {
-    @apply text-3xl text-psy-dark-white;
+    @apply text-5xl text-psy-dark-white font-bold font-roboto;
   }
   h2 {
-    @apply text-2xl text-psy-blue;
+    @apply text-4xl text-psy-blue font-bold font-roboto;
   }
   h3 {
-    @apply text-xl text-psy-blue;
+    @apply text-xl text-psy-blue font-roboto;
   }
   h4 {
     @apply text-lg text-white;
   }
   p {
-    @apply text-base;
+    @apply text-base text-white font-quicksand;
   }
   button {
     @apply text-lg;
@@ -31,12 +31,12 @@
     @apply font-quicksand text-white hover:text-psy-blue;
   }
   nav {
-    @apply bg-blue-200;
+    @apply bg-psy-bg-light;
   }
 }
 
 @layer utilities {
   .content {
-    @apply p-8 md:p-12;
+    @apply p-8 md:p-12 max-w-[1400px] m-auto;
   }
 }

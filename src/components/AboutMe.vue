@@ -1,7 +1,7 @@
 <template>
-  <section>
+  <section class="border-2 border-red-200">
     <div class="flex">
-      <div class="basis-3/5">
+      <div class="flex flex-col gap-4 basis-3/5">
         <h1>PsyChen</h1>
         <h2>PsychoPy Experiment Creation</h2>
         <p>
@@ -24,6 +24,6 @@
       </div>
       <div class="basis-2/5">image</div>
     </div>
-    <button>Contant Me</button>
+    <button class="my-6">Contant Me</button>
   </section>
 </template>

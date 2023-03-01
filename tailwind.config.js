@@ -14,6 +14,8 @@ module.exports = {
         "psy-dark-white": "#F5F5F5",
         "psy-blue": "#00A7EE",
         "psy-gray": "#596380",
+        "psy-bg-dark": "#050E2B",
+        "psy-bg-light": "#0A1841",
       },
     },
     plugins: [],
