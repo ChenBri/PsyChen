@@ -1,8 +1,10 @@
 <template>
   <section id="example_1">
     <div class="content">
-      <div class="flex">
-        <video src="./../assets/" class="basis-1/2"></video>
+      <div class="flex gap-12">
+        <video class="basis-1/2 max-w-[50%] rounded-md" autoplay muted controls>
+          <source src="./../assets/videos/Vid1_720p.mp4" type="video/mp4" />
+        </video>
         <div class="basis-1/2">
           <h2>Example #1:</h2>
           <h2 class="text-[28px]">Identical/Non-Identical Stimulus</h2>
@@ -19,15 +21,12 @@
             place within a few months.
           </p>
           <div class="flex flex-row gap-4 lg:gap-12 mt-6">
-            <button class="flex items-center gap-4 p-2">
-              <img
-                class="w-12 h-12"
-                src="./../assets/images/github_button.png"
-              />
+            <button class="flex items-center gap-2 p-2">
+              <img class="w-8 h-8" src="./../assets/images/github_button.png" />
               <p class="">Github Repository</p>
             </button>
-            <button class="flex items-center gap-4 p-2">
-              <img class="w-12 h-12" src="./../assets/images/flow_button.png" />
+            <button class="flex items-center gap-2 p-2">
+              <img class="w-8 h-8" src="./../assets/images/flow_button.png" />
               <p class="">Flow</p>
             </button>
           </div>
