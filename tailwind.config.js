@@ -10,6 +10,11 @@ module.exports = {
         quicksand: ["Quicksand", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
+      colors: {
+        "psy-dark-white": "#F5F5F5",
+        "psy-blue": "#00A7EE",
+        "psy-gray": "#596380",
+      },
     },
     plugins: [],
   },
