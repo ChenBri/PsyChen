@@ -33,11 +33,14 @@
   nav {
     @apply bg-psy-bg-light;
   }
+  section {
+    @apply p-8 md:p-12;
+  }
 }
 
 @layer utilities {
   .content {
-    @apply p-8 md:p-12 max-w-[1400px] m-auto;
+    @apply max-w-[1400px] m-auto;
   }
   .rounded-border-blue-big {
     @apply rounded-full border-psy-blue border-opacity-15 border-[20px];

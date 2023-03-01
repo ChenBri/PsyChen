@@ -1,18 +1,19 @@
 <script>
 import NavBar from "./components/NavBar.vue";
 import AboutMe from "./components/AboutMe.vue";
+import MyService from "./components/MyService.vue";
 
 export default {
   components: {
     NavBar,
     AboutMe,
+    MyService,
   },
 };
 </script>
 
 <template>
   <NavBar />
-  <div class="content">
-    <AboutMe />
-  </div>
+  <AboutMe />
+  <MyService />
 </template>
