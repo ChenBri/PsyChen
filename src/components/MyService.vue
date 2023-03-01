@@ -1,3 +1,15 @@
+<script>
+import service_list from "./../assets/json/service_list.json";
+
+export default {
+  data() {
+    return {
+      service: service_list,
+    };
+  },
+};
+</script>
+
 <template>
   <section id="my_service" class="mt-4 bg-psy-bg-light">
     <div class="content">
@@ -12,6 +24,10 @@
             develop new features for you. Feel free to ask me anything regarding
             Psychopy.
           </p>
+
+          <ul v-for="item in service">
+            <li>{{ item }}</li>
+          </ul>
         </div>
         <div class="basis-1/2">
           <img src="./../assets/images/my_service.png" class="rounded-[12px]" />
