@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe.vue";
 import MyService from "./components/MyService.vue";
 import Example1 from "./components/Example1.vue";
 import Example2 from "./components/Example2.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   components: {
@@ -12,6 +13,7 @@ export default {
     MyService,
     Example1,
     Example2,
+    Footer,
   },
 };
 </script>
@@ -22,4 +24,5 @@ export default {
   <MyService />
   <Example1 />
   <Example2 />
+  <Footer />
 </template>
