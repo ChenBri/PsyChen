@@ -1,10 +1,10 @@
 <template>
-  <section class="border-2 border-red-200">
-    <div class="flex">
+  <section id="about_me" class="border-2 border-red-200">
+    <div class="flex gap-8">
       <div class="flex flex-col gap-4 basis-3/5">
         <h1>PsyChen</h1>
         <h2>PsychoPy Experiment Creation</h2>
-        <p>
+        <p class="leading-12">
           Hey, my name is Chen Brilling. I'm a B.A. student in Psychology in my
           last semester at Bar-Ilan University. During the previous two years,
           I've worked as a research assistant in the Social Neuroscience Lab,
@@ -22,8 +22,14 @@
           more tools.
         </p>
       </div>
-      <div class="basis-2/5">image</div>
+      <div class="flex basis-2/5 border-2 border-white justify-end">
+        <div class="border-2 border-white w-[80%]">Image..</div>
+      </div>
     </div>
-    <button class="my-6">Contant Me</button>
+    <button
+      class="px-10 py-4 my-6 bg-psy-blue rounded-lg text-white font-quicksand"
+    >
+      <a href="#about_me">Contant Me</a>
+    </button>
   </section>
 </template>

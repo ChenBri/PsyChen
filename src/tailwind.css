@@ -22,7 +22,7 @@
     @apply text-lg text-white;
   }
   p {
-    @apply text-base text-white font-quicksand;
+    @apply text-[18px] text-white font-quicksand;
   }
   button {
     @apply text-lg;
