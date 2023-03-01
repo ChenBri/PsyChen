@@ -25,8 +25,22 @@ export default {
             Psychopy.
           </p>
 
-          <ul v-for="item in service">
-            <li>{{ item }}</li>
+          <ul class="mt-12">
+            <li v-for="(item, index) in service">
+              <div
+                class="flex py-4"
+                :class="index !== 3 ? 'border-b-2 border-white' : ''"
+              >
+                <i
+                  :class="item.service_icon"
+                  class="fa-solid fa-2xl before:faClass pr-4"
+                ></i>
+                <div>
+                  <h3 class="text-white">{{ item.service_name }}</h3>
+                  <p>{{ item.service_description }}</p>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
         <div class="basis-1/2">

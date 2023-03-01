@@ -1,14 +1,22 @@
 [
     {
-        "style": "p-24",
-        "name": "test"
+        "service_name": "Experiment Creation",
+        "service_description": "Together we will configure and craft new experiments from scratch.",
+        "service_icon": "fa-handshake"
     },
     {
-        "style": "p-24",
-        "name": "test"
+        "service_name": "Making it work",
+        "service_description": "I offer Advanced Troubleshooting for your experiment with a careful inspection.",
+        "service_icon": "fa-gear"
     },
     {
-        "style": "p-24",
-        "name": "test"
+        "service_name": "Features",
+        "service_description": "Modification and creation of new features for existing experiment.",
+        "service_icon": "fa-square-plus"
+    },
+    {
+        "service_name": "Mentoring",
+        "service_description": "I will be providing a responsive and in-depth assistance for your PsychoPy Experiments.",
+        "service_icon": "fa-person-chalkboard"
     }
 ]
