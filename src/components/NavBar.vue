@@ -45,7 +45,8 @@ export default {
       </ul>
       <button class="block md:hidden pt-6" @click="toggle">Close Menu</button>
     </div>
-    <div v-else class="flex justify-end">
+    <div v-else class="flex justify-between px-4">
+      <img src="../assets/images/logo_horizontal.png" class="w-32 py-2" />
       <button class="block md:hidden text-end px-4" @click="toggle">=</button>
     </div>
   </nav>
