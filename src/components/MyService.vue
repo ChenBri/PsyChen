@@ -14,7 +14,7 @@ export default {
   <section id="my_service" class="mt-4 bg-psy-bg-light">
     <div class="content">
       <h2 class="mb-8">Available Services</h2>
-      <div class="flex gap-12">
+      <div class="flex flex-col xl:flex-row gap-12">
         <div class="basis-1/2">
           <p class="p-6 border-2 border-white">
             I offer everything regarding PsychoPy. I can create your experiments
@@ -44,7 +44,10 @@ export default {
           </ul>
         </div>
         <div class="basis-1/2">
-          <img src="./../assets/images/my_service.png" class="rounded-[12px]" />
+          <img
+            src="./../assets/images/my_service.png"
+            class="rounded-[15px] 2xl:rounded-[10px] p-0 sm:p-6 md:p-12 xl:p-0"
+          />
         </div>
       </div>
     </div>
