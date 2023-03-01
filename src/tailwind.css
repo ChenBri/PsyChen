@@ -6,6 +6,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply bg-blue-100;
+  }
   h1 {
     @apply text-3xl text-psy-dark-white;
   }
@@ -29,5 +32,11 @@
   }
   nav {
     @apply bg-blue-200;
+  }
+}
+
+@layer utilities {
+  .content {
+    @apply p-8 md:p-12;
   }
 }
