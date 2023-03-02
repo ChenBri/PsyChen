@@ -24,7 +24,7 @@ export default {
 </script>
 
 <template>
-  <nav class="">
+  <nav id="navbar">
     <div
       v-if="!burgerMenu || this.windowWidth >= 768"
       class="flex flex-col md:flex-row justify-between px-4 md:px-24 py-4"
@@ -34,11 +34,11 @@ export default {
         class="w-32 h-auto m-auto md:m-0 pb-4 md:pb-0"
       />
       <ul class="flex flex-col md:flex-row gap-6 items-center">
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">My Service</a></li>
-        <li><a href="#">Examples</a></li>
+        <li><a href="#about_me">About Me</a></li>
+        <li><a href="#my_service">My Service</a></li>
+        <li><a href="#example_1">Examples</a></li>
         <li>
-          <a href="#" class="border-psy-blue border-2 p-3 rounded-xl"
+          <a href="#contact_me" class="border-psy-blue border-2 p-3 rounded-xl"
             >Contant Me</a
           >
         </li>

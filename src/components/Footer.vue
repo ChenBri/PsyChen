@@ -4,7 +4,9 @@
       <p class="text-[12px] md:text-[14px]">
         © 2023 Chen Brilling. All Rights Reserved.
       </p>
-      <img src="./../assets/images/logo_horizontal.png" class="w-32" />
+      <a href="#navbar"
+        ><img src="./../assets/images/logo_horizontal.png" class="w-32"
+      /></a>
     </div>
   </footer>
 </template>

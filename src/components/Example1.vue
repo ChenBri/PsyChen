@@ -31,7 +31,11 @@
           >
             <button class="flex items-center gap-2 p-2">
               <img class="w-8 h-8" src="./../assets/images/github_button.png" />
-              <p class="px-1">Github Repository</p>
+              <p class="px-1">
+                <a href="https://github.com/ChenBri/Grid-Psychology-Experiment"
+                  >Github Repository</a
+                >
+              </p>
             </button>
             <button class="flex items-center gap-2 px-2">
               <img class="w-8 h-8" src="./../assets/images/flow_button.png" />

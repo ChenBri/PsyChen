@@ -48,7 +48,7 @@
         <button
           class="px-10 py-4 mt-12 lg:mt-6 bg-psy-blue rounded-lg text-white font-quicksand"
         >
-          <a href="#about_me" class="">Contant Me</a>
+          <a href="#contact_me" class="">Contant Me</a>
         </button>
       </div>
     </div>
