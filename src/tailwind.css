@@ -29,7 +29,7 @@
     @apply text-lg bg-psy-blue rounded-lg py-3 text-white font-quicksand;
   }
   li {
-    @apply font-quicksand text-white hover:text-psy-blue;
+    @apply font-quicksand text-white hover:text-psy-blue duration-700;
   }
   nav {
     @apply bg-psy-bg-light;
