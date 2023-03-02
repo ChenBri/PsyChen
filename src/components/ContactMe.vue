@@ -1,17 +1,21 @@
 <template>
   <section id="contact_me">
-    <div class="bg-psy-bg-light rounded-xl mx-24">
-      <div class="flex">
-        <div class="basis-2/6 rounded-l-2xl bg-[#1E1E1e] flex items-center">
+    <div class="bg-psy-bg-light mx-4 md:mx-12 xl:mx-24 rounded-2xl">
+      <div class="flex flex-col xl:flex-row">
+        <div
+          class="basis-2/6 bg-[#1E1E1e] flex items-center xl:rounded-l-2xl rounded-t-2xl xl:rounded-r-none"
+        >
           <img
             src="./../assets/images/contant_image.png"
-            class="object-contain"
+            class="object-contain rounded-t-2xl xl:rounded-t-none"
           />
         </div>
 
-        <div class="basis-4/6 p-6 border-l-4 border-white px-24">
+        <div
+          class="basis-4/6 py-6 border-t-4 xl:border-t-0 border-l-0 xl:border-l-4 border-white px-6 md:px-12 lg:px-24"
+        >
           <h2 class="mb-4">Get In Touch</h2>
-          <p class="text-[22px] font-roboto w-[50%]">
+          <p class="text-[22px] font-roboto w-[90%] md:w-[70%] lg:w-[60%]">
             Feel free to message me about any inquiry you might have. I'll be
             happy to help.
           </p>
@@ -49,7 +53,12 @@
                 class="col-span-4 row-span-3 rounded-md bg-psy-icon-dark-blue/[0.1] p-2 font-quicksand text-[16px] text-white"
               />
 
-              <button type="submit" class="bg-psy-blue mr-12">Submit</button>
+              <button
+                type="submit"
+                class="bg-psy-blue mr-12 col-span-2 2xl:col-span-1"
+              >
+                Submit
+              </button>
             </div>
           </form>
         </div>
