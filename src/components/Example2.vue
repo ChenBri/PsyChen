@@ -46,7 +46,7 @@
           </div>
         </div>
       </div>
-      <iframe
+      <!-- <iframe
         class="airtable-embed mt-12 lg:mt-24 rounded-lg"
         src="https://airtable.com/embed/shr3bkI2IdVkdKCWc?backgroundColor=cyan"
         frameborder="0"
@@ -54,7 +54,7 @@
         width="100%"
         height="533"
         style="background: transparent; border: 1px solid #ccc"
-      ></iframe>
+      ></iframe> -->
     </div>
   </section>
 </template>

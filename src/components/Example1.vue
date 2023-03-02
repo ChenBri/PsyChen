@@ -1,3 +1,24 @@
+<script>
+import FlowImage from "./FlowImage.vue";
+export default {
+  data() {
+    return {
+      image1Open: false,
+      image1URL: "./src/assets/images/exp1_flow.png",
+    };
+  },
+
+  methods: {
+    toggleImage() {
+      this.image1Open = !this.image1Open;
+    },
+  },
+  components: {
+    FlowImage,
+  },
+};
+</script>
+
 <template>
   <section id="example_1">
     <div class="content">
@@ -39,14 +60,14 @@
                 >
               </p>
             </button>
-            <button class="flex items-center gap-2 px-2">
+            <button @click="toggleImage" class="flex items-center gap-2 px-2">
               <img class="w-8 h-8" src="./../assets/images/flow_button.png" />
               <p class="px-1">Flow</p>
             </button>
           </div>
         </div>
       </div>
-      <iframe
+      <!-- <iframe
         class="airtable-embed mt-12 lg:mt-24 rounded-lg"
         src="https://airtable.com/embed/shrd3r8uU3J7O5zFX?backgroundColor=cyan"
         frameborder="0"
@@ -54,7 +75,13 @@
         width="100%"
         height="533"
         style="background: transparent; border: 1px solid #ccc"
-      ></iframe>
+      ></iframe> -->
     </div>
+    <FlowImage
+      v-show="image1Open"
+      :image="image1URL"
+      :isOpen="image1Open"
+      @toggleImage="toggleImage"
+    />
   </section>
 </template>
