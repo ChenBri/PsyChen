@@ -1,3 +1,24 @@
+<script>
+import FlowImage from "./FlowImage.vue";
+export default {
+  data() {
+    return {
+      image2Open: false,
+      image2URL: "./src/assets/images/exp2_flow.png",
+    };
+  },
+
+  methods: {
+    toggleImage() {
+      this.image2Open = !this.image2Open;
+    },
+  },
+  components: {
+    FlowImage,
+  },
+};
+</script>
+
 <template>
   <section id="example_2 " class="bg-psy-bg-light">
     <div class="content">
@@ -39,7 +60,7 @@
                 >
               </p>
             </button>
-            <button class="flex items-center gap-2 px-2">
+            <button @click="toggleImage" class="flex items-center gap-2 px-2">
               <img class="w-8 h-8" src="./../assets/images/flow_button.png" />
               <p class="px-1">Flow</p>
             </button>
@@ -56,5 +77,11 @@
         style="background: transparent; border: 1px solid #ccc"
       ></iframe> -->
     </div>
+    <FlowImage
+      v-show="image2Open"
+      :image="image2URL"
+      :isOpen="image2Open"
+      @toggleImage="toggleImage"
+    />
   </section>
 </template>
