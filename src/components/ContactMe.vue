@@ -15,9 +15,15 @@
           class="basis-4/6 py-6 border-t-4 xl:border-t-0 border-l-0 xl:border-l-4 border-white px-6 md:px-12 lg:px-24"
         >
           <h2 class="mb-4">Get In Touch</h2>
-          <p class="text-[22px] font-roboto w-[90%] md:w-[70%] lg:w-[60%]">
+          <p class="text-[22px] font-roboto">
             Feel free to message me about any inquiry you might have. I'll be
             happy to help.
+          </p>
+          <p>
+            You can do so through the form below or your email:
+            <span class="!bg-transparent underline"
+              >chenbrilling@gmail.com</span
+            >
           </p>
           <form
             action="https://formsubmit.co/chenbrilling@gmail.com"
