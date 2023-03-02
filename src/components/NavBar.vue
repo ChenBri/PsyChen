@@ -54,7 +54,7 @@ export default {
           <a
             href="#contact_me"
             @click="toggle"
-            class="border-psy-blue border-2 p-3 rounded-xl"
+            class="border-psy-blue border-2 p-3 rounded-xl hover:border-white text-white hover:text-psy-blue !duration-500"
             >Contant Me</a
           >
         </li>

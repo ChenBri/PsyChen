@@ -32,7 +32,9 @@
             <button class="flex items-center gap-2 p-2">
               <img class="w-8 h-8" src="./../assets/images/github_button.png" />
               <p class="px-1">
-                <a href="https://github.com/ChenBri/Grid-Psychology-Experiment"
+                <a
+                  href="https://github.com/ChenBri/Grid-Psychology-Experiment"
+                  target="_blank"
                   >Github Repository</a
                 >
               </p>

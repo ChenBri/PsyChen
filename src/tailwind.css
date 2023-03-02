@@ -26,7 +26,7 @@
     @apply text-[14px] md:text-[18px] text-white font-quicksand;
   }
   button {
-    @apply text-lg bg-psy-blue rounded-lg py-3 text-white font-quicksand;
+    @apply text-lg bg-psy-blue hover:bg-[#5a6d8b] rounded-lg py-3 text-white font-quicksand duration-500;
   }
   li {
     @apply font-quicksand text-white hover:text-psy-blue duration-700;

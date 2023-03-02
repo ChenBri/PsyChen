@@ -45,11 +45,13 @@
         </div>
       </div>
       <div class="flex justify-center lg:justify-start">
-        <button
-          class="px-10 py-4 mt-12 lg:mt-6 bg-psy-blue rounded-lg text-white font-quicksand"
-        >
-          <a href="#contact_me" class="">Contant Me</a>
-        </button>
+        <a href="#contact_me" class="">
+          <button
+            class="px-10 py-4 mt-12 lg:mt-6 bg-psy-blue rounded-lg text-white font-quicksand"
+          >
+            Contant Me
+          </button>
+        </a>
       </div>
     </div>
   </section>

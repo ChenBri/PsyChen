@@ -34,6 +34,7 @@
               <p class="px-1">
                 <a
                   href="https://github.com/ChenBri/Cue-Reactivity-Psycholoy-Experiment"
+                  target="_blank"
                   >Github Repository</a
                 >
               </p>
