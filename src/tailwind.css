@@ -37,6 +37,9 @@
   section {
     @apply p-8 md:p-12;
   }
+  span {
+    @apply bg-psy-blue;
+  }
 }
 
 @layer utilities {
