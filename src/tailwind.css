@@ -49,8 +49,11 @@
   .rounded-border-blue-big {
     @apply rounded-full border-psy-blue border-opacity-15 border-[20px];
   }
-  .rounded-border-blue-small {
+  .rounded-border-blue-small-abs {
     @apply rounded-full outline outline-[10px] outline-psy-icon-dark-blue/[.1] w-10 absolute;
+  }
+  .rounded-border-blue-small-block {
+    @apply rounded-full outline outline-[10px] outline-psy-icon-dark-blue/[.1] hover:outline-white/[0.8] hover:outline-2 w-8 md:w-12 h-8 md:h-12 duration-300;
   }
   .faClass {
     display: inline-block;
@@ -59,5 +62,8 @@
     height: 50px;
     text-align: center;
     vertical-align: middle;
+  }
+  .icon-img {
+    @apply w-12 h-12 outline-8 outline-psy-icon-dark-blue;
   }
 }

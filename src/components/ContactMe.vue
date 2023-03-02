@@ -29,7 +29,7 @@
               value="http://127.0.0.1:5173/thankyou"
             />
 
-            <div class="grid grid-cols-4 grid-rows-4 gap-6 mt-4">
+            <div class="grid grid-cols-4 grid-rows-4 gap-4 sm:gap-6 mt-4">
               <input
                 type="text"
                 name="name"
@@ -55,10 +55,38 @@
 
               <button
                 type="submit"
-                class="bg-psy-blue mr-12 col-span-2 2xl:col-span-1"
+                class="bg-psy-blue mr-4 sm:mr-12 col-span-2 2xl:col-span-1"
               >
                 Submit
               </button>
+              <div
+                class="flex col-span-3 sm:col-span-2 justify-around col-start-3 mr-4 sm:mr-0 ml-[-16px] sm:ml-0"
+              >
+                <a href="mailto: chenbrilling@gmail.com" target="_blank">
+                  <img
+                    src="./../assets/images/gmail_icon.png"
+                    class="rounded-border-blue-small-block"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/chen-brilling-043522230/"
+                  target="_blank"
+                >
+                  <img
+                    src="./../assets/images/linkedin_icon.png"
+                    class="rounded-border-blue-small-block"
+                  />
+                </a>
+                <a
+                  href="https://discourse.psychopy.org/u/chen/"
+                  target="_blank"
+                >
+                  <img
+                    src="./../assets/images/psychopy_icon.png"
+                    class="rounded-border-blue-small-block"
+                  />
+                </a>
+              </div>
             </div>
           </form>
         </div>
