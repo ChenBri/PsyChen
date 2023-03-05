@@ -26,10 +26,9 @@ export default {
 
 <template>
   <nav id="navbar">
-    <div class="absolute -right-2 py-4">
+    <div @click="toggle" class="absolute -right-2 py-4">
       <div
         v-show="this.windowWidth <= 768"
-        @click="toggle"
         id="nav-icon"
         :class="{ open: !burgerMenu }"
       >
@@ -40,12 +39,12 @@ export default {
     </div>
     <div
       v-if="!burgerMenu || this.windowWidth >= 768"
-      class="flex flex-col md:flex-row justify-between px-4 md:px-24 py-4"
+      class="flex flex-col md:flex-row justify-between px-32 md:px-24 py-4"
     >
       <a href="/">
         <img
           src="../assets/images/logo_horizontal.png"
-          class="w-32 h-auto m-auto md:m-0 pb-4 md:pb-0"
+          class="w-32 h-auto m-auto md:m-0 pb-4 md:pb-0 p-0"
         />
       </a>
       <ul class="flex flex-col md:flex-row gap-6 items-center">
