@@ -78,6 +78,7 @@ export default {
       ></iframe>
     </div>
     <FlowImage
+      class="flow"
       v-show="image2Open"
       :image="image2URL"
       :isOpen="image2Open"

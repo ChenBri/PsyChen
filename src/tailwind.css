@@ -66,4 +66,7 @@
   .icon-img {
     @apply w-12 h-12 outline-8 outline-psy-icon-dark-blue;
   }
+  .flow {
+    @apply fixed w-[100%] h-[100%] top-0 left-0 backdrop-blur-sm z-20;
+  }
 }

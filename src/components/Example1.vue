@@ -80,7 +80,7 @@ export default {
     </div>
 
     <FlowImage
-      class="fixed w-[100%] h-[100%] top-0 left-0 backdrop-blur-sm z-20"
+      class="flow"
       v-show="image1Open"
       :image="image1URL"
       :isOpen="image1Open"
