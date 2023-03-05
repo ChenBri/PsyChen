@@ -7,7 +7,7 @@
         >
           <img
             src="./../assets/images/contant_image.png"
-            class="object-contain rounded-t-2xl xl:rounded-t-none"
+            class="object-contain rounded-t-2xl xl:rounded-t-none max-w-[80%] md:max-w-auto"
           />
         </div>
 
