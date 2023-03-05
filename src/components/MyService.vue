@@ -46,7 +46,7 @@ export default {
         <div class="relative basis-1/2 flex items-center">
           <img
             src="./../assets/images/my_service.png"
-            class="rounded-[15px] p-0 sm:p-6 md:p-12 xl:p-0 z-10"
+            class="relative rounded-[15px] p-0 sm:p-6 md:p-12 xl:p-0 z-10"
           />
           <!-- <img
             src="./../assets/images/decorations/decorations_wide_circle.png"

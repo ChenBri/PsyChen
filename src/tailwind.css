@@ -50,7 +50,7 @@
     @apply rounded-full border-psy-blue border-opacity-15 border-[20px];
   }
   .rounded-border-blue-small-abs {
-    @apply rounded-full outline outline-[10px] outline-psy-icon-dark-blue/[.1] w-10 absolute;
+    @apply rounded-full outline outline-[10px] outline-psy-icon-dark-blue/[.1] w-10 absolute hover:outline-white/[0.8] hover:outline-2 duration-300;
   }
   .rounded-border-blue-small-block {
     @apply rounded-full outline outline-[10px] outline-psy-icon-dark-blue/[.1] hover:outline-white/[0.8] hover:outline-2 w-8 md:w-12 h-8 md:h-12 duration-300;

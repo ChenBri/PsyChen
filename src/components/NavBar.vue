@@ -42,10 +42,12 @@ export default {
       v-if="!burgerMenu || this.windowWidth >= 768"
       class="flex flex-col md:flex-row justify-between px-4 md:px-24 py-4"
     >
-      <img
-        src="../assets/images/logo_horizontal.png"
-        class="w-32 h-auto m-auto md:m-0 pb-4 md:pb-0"
-      />
+      <a href="/">
+        <img
+          src="../assets/images/logo_horizontal.png"
+          class="w-32 h-auto m-auto md:m-0 pb-4 md:pb-0"
+        />
+      </a>
       <ul class="flex flex-col md:flex-row gap-6 items-center">
         <li><a href="#about_me" @click="toggle">About Me</a></li>
         <li><a href="#my_service" @click="toggle">My Service</a></li>

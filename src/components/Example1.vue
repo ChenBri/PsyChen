@@ -67,6 +67,7 @@ export default {
           </div>
         </div>
       </div>
+
       <iframe
         class="airtable-embed mt-12 lg:mt-24 rounded-lg"
         src="https://airtable.com/embed/shrd3r8uU3J7O5zFX?backgroundColor=cyan"
@@ -77,7 +78,9 @@ export default {
         style="background: transparent; border: 1px solid #ccc"
       ></iframe>
     </div>
+
     <FlowImage
+      class="fixed w-[100%] h-[100%] top-0 left-0 backdrop-blur-sm z-20"
       v-show="image1Open"
       :image="image1URL"
       :isOpen="image1Open"
