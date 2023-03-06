@@ -25,7 +25,7 @@ export default {
             Psychopy.
           </p>
 
-          <ul class="mt-12">
+          <ul class="relative mt-12">
             <li v-for="(item, index) in service">
               <div
                 class="flex py-4"
@@ -41,6 +41,15 @@ export default {
                 </div>
               </div>
             </li>
+            <!-- <i
+              class="fa-solid fa-circle fa-xs text-psy-blue absolute -top-2 -left-2"
+            ></i>
+            <i
+              class="fa-solid fa-circle fa-xs text-psy-blue absolute top-[10rem] -left-6"
+            ></i>
+            <i
+              class="fa-solid fa-circle fa-xs text-psy-blue absolute top-[25rem] left-6"
+            ></i> -->
           </ul>
         </div>
         <div class="relative basis-1/2 flex items-center">
