@@ -67,15 +67,22 @@ export default {
           </div>
         </div>
       </div>
-      <iframe
-        class="airtable-embed mt-12 lg:mt-24 rounded-lg"
-        src="https://airtable.com/embed/shr3bkI2IdVkdKCWc?backgroundColor=cyan"
-        frameborder="0"
-        onmousewheel=""
-        width="100%"
-        height="533"
-        style="background: transparent; border: 1px solid #ccc"
-      ></iframe>
+      <div class="relative z-20">
+        <iframe
+          class="airtable-embed mt-12 lg:mt-24 rounded-lg"
+          src="https://airtable.com/embed/shr3bkI2IdVkdKCWc?backgroundColor=cyan"
+          frameborder="0"
+          onmousewheel=""
+          width="100%"
+          height="533"
+          style="background: transparent; border: 1px solid #ccc"
+        ></iframe>
+
+        <img
+          class="absolute -bottom-16 md:-bottom-20 -left-16 md:-left-20 w-48 -z-10"
+          src="./../assets/images/decorations/decorations_square_dots.png"
+        />
+      </div>
     </div>
     <FlowImage
       class="flow"

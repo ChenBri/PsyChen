@@ -23,15 +23,16 @@ export default {
   <section id="example_1">
     <div class="content">
       <div class="flex flex-col-reverse lg:flex-row gap-12">
-        <video
-          class="basis-1/2 lg:max-w-[50%] rounded-md"
-          autoplay
-          muted
-          controls
-          loop
-        >
-          <source src="./../assets/videos/Vid1_720p.mp4" type="video/mp4" />
-        </video>
+        <div class="relative basis-1/2">
+          <video class="rounded-md" autoplay muted controls loop>
+            <source src="./../assets/videos/Vid1_720p.mp4" type="video/mp4" />
+          </video>
+          <img
+            class="absolute -top-[3.5rem] -left-16 -z-10 w-32"
+            src="./../assets/images/decorations/decorations_dots.png"
+          />
+        </div>
+
         <div class="basis-1/2">
           <h2>Example #1:</h2>
           <h2 class="text-[28px]">Identical/Non-Identical Stimulus</h2>
@@ -68,15 +69,21 @@ export default {
         </div>
       </div>
 
-      <iframe
-        class="airtable-embed mt-12 lg:mt-24 rounded-lg"
-        src="https://airtable.com/embed/shrd3r8uU3J7O5zFX?backgroundColor=cyan"
-        frameborder="0"
-        onmousewheel=""
-        width="100%"
-        height="533"
-        style="background: transparent; border: 1px solid #ccc"
-      ></iframe>
+      <div class="relative">
+        <iframe
+          class="airtable-embed mt-12 lg:mt-24 rounded-lg"
+          src="https://airtable.com/embed/shrd3r8uU3J7O5zFX?backgroundColor=cyan"
+          frameborder="0"
+          onmousewheel=""
+          width="100%"
+          height="533"
+          style="background: transparent; border: 1px solid #ccc"
+        ></iframe>
+        <img
+          class="absolute -top-4 2xl:-top-12 -right-4 2xl:-right-12 -z-10 w-32"
+          src="./../assets/images/decorations/decorations_squares.png"
+        />
+      </div>
     </div>
 
     <FlowImage
