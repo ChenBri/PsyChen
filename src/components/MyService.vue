@@ -48,10 +48,11 @@ export default {
             src="./../assets/images/my_service.png"
             class="relative rounded-[15px] p-0 sm:p-6 md:p-12 xl:p-0 z-10"
           />
-          <!-- <img
+
+          <img
             src="./../assets/images/decorations/decorations_wide_circle.png"
-            class="absolute top-24 xl:-top-12 -right-12 lg:-right-36 w-[15rem] lg:w-[20rem]"
-          /> -->
+            class="absolute top-[-25%] sm:top-[-5%] lg:top-[-10%] xl:top-[0%] -right-12 lg:-right-36 w-[10rem] md:w-[15rem] lg:w-[20rem]"
+          />
         </div>
       </div>
     </div>

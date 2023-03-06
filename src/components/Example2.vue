@@ -23,15 +23,15 @@ export default {
   <section id="example_2 " class="bg-psy-bg-light">
     <div class="content">
       <div class="flex flex-col-reverse lg:flex-row-reverse gap-12">
-        <video
-          class="basis-1/2 lg:max-w-[50%] rounded-md"
-          autoplay
-          muted
-          controls
-          loop
-        >
-          <source src="./../assets/videos/Vid2_720p.mp4" type="video/mp4" />
-        </video>
+        <div class="relative z-10 basis-1/2">
+          <video class="rounded-md z-30" autoplay muted controls loop>
+            <source src="./../assets/videos/Vid2_720p.mp4" type="video/mp4" />
+          </video>
+          <img
+            src="./../assets/images/decorations/decorations_wide_circle.png"
+            class="absolute -z-10 w-[10rem] md:w-[12rem] lg:w-[15rem] -right-[3.5rem] sm:-right-[4rem] md:-right-[5.5rem] -top-[2rem] md:-top-12"
+          />
+        </div>
         <div class="basis-1/2">
           <h2>Example #2:</h2>
           <h2 class="text-[28px]">Cue Reactivity</h2>

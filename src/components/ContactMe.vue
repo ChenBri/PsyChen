@@ -1,6 +1,10 @@
 <template>
   <section id="contact_me">
-    <div class="bg-psy-bg-light mx-4 md:mx-12 xl:mx-24 rounded-2xl">
+    <div class="relative bg-psy-bg-light mx-4 md:mx-12 xl:mx-24 rounded-2xl">
+      <img
+        class="absolute -right-[5rem] top-[60%] xl:top-[40%] -z-10"
+        src="./../assets/images/decorations/decorations_dots.png"
+      />
       <div class="flex flex-col xl:flex-row">
         <div
           class="basis-2/6 bg-[#1E1E1e] flex items-center xl:rounded-l-2xl rounded-t-2xl xl:rounded-r-none"
