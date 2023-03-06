@@ -28,8 +28,8 @@ export default {
             <source src="./../assets/videos/Vid2_720p.mp4" type="video/mp4" />
           </video>
           <img
-            src="./../assets/images/decorations/decorations_wide_circle.png"
-            class="absolute -z-10 w-[10rem] md:w-[12rem] lg:w-[15rem] -right-[3.5rem] sm:-right-[4rem] md:-right-[5.5rem] -top-[2rem] md:-top-12"
+            src="./../assets/images/decorations/decorations_circle.png"
+            class="absolute -z-10 -right-24 -bottom-8 lg:bottom-24 xl:-bottom-16 w-48 md:w-64 xl:w-72"
           />
         </div>
         <div class="basis-1/2">

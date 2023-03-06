@@ -29,3 +29,9 @@ export default {
   <ContactMe />
   <Footer />
 </template>
+
+<style scoped>
+* {
+  overflow: hidden;
+}
+</style>
