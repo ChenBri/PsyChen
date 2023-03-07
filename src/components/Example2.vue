@@ -1,5 +1,7 @@
 <script>
 import FlowImage from "./FlowImage.vue";
+import { observe } from "./../scripts/observeFunction";
+
 export default {
   data() {
     return {
@@ -7,7 +9,6 @@ export default {
       image2URL: "./src/assets/images/exp2_flow.png",
     };
   },
-
   methods: {
     toggleImage() {
       this.image2Open = !this.image2Open;
@@ -16,12 +17,15 @@ export default {
   components: {
     FlowImage,
   },
+  mounted() {
+    observe(example_2, example_2_circle, "scale-0");
+  },
 };
 </script>
 
 <template>
-  <section id="example_2 " class="bg-psy-bg-light">
-    <div class="content">
+  <section class="bg-psy-bg-light">
+    <div class="content" id="example_2">
       <div class="flex flex-col-reverse lg:flex-row-reverse gap-12">
         <div class="relative z-10 basis-1/2">
           <video class="rounded-md z-30" autoplay muted controls loop>
@@ -29,7 +33,8 @@ export default {
           </video>
           <img
             src="./../assets/images/decorations/decorations_circle.png"
-            class="absolute -z-10 -right-24 -bottom-8 lg:bottom-24 xl:-bottom-16 w-48 md:w-64 xl:w-72"
+            class="absolute -z-10 -right-24 -bottom-8 lg:bottom-24 xl:-bottom-16 w-48 md:w-64 xl:w-72 duration-1000 scale-0"
+            id="example_2_circle"
           />
         </div>
         <div class="basis-1/2">
@@ -79,7 +84,7 @@ export default {
         ></iframe>
 
         <img
-          class="absolute -bottom-16 md:-bottom-20 -left-16 md:-left-20 w-48 -z-10"
+          class="absolute -bottom-16 md:-bottom-20 -left-16 md:-left-20 w-48 -z-10 scale-0"
           src="./../assets/images/decorations/decorations_square_dots.png"
         />
       </div>
