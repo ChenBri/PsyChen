@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-  <section id="example_1">
+  <section id="example_1" class="bg-psy-bg-dark">
     <div class="content">
       <div class="flex flex-col-reverse lg:flex-row gap-12">
         <div class="relative basis-1/2">

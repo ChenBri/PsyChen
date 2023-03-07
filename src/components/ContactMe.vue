@@ -1,5 +1,5 @@
 <template>
-  <section id="contact_me">
+  <section id="contact_me" class="bg-psy-bg-dark">
     <div class="relative bg-psy-bg-light mx-4 md:mx-12 xl:mx-24 rounded-2xl">
       <img
         class="absolute -right-[5rem] top-[60%] xl:top-[40%] -z-10"
