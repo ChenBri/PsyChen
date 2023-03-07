@@ -1,11 +1,15 @@
 <script>
 import service_list from "./../assets/json/service_list.json";
-
+import { observe } from "./../scripts/observeFunction";
 export default {
   data() {
     return {
       service: service_list,
     };
+  },
+  methods: {},
+  mounted() {
+    observe(my_service, my_service_circle, "scale-0");
   },
 };
 </script>
@@ -60,7 +64,8 @@ export default {
 
           <img
             src="./../assets/images/decorations/decorations_wide_circle.png"
-            class="absolute top-[-25%] sm:top-[-5%] lg:top-[-10%] xl:top-[0%] -right-12 lg:-right-36 w-[10rem] md:w-[15rem] lg:w-[20rem]"
+            class="absolute top-[-25%] sm:top-[-5%] lg:top-[-10%] xl:top-[0%] -right-12 lg:-right-36 w-[10rem] md:w-[15rem] lg:w-[20rem] duration-1000 scale-0"
+            id="my_service_circle"
           />
         </div>
       </div>
