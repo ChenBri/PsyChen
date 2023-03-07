@@ -84,7 +84,7 @@ export default {
         ></iframe>
 
         <img
-          class="absolute -bottom-16 md:-bottom-20 -left-16 md:-left-20 w-48 -z-10 scale-0"
+          class="absolute -bottom-16 md:-bottom-20 -left-16 md:-left-20 w-48 -z-10"
           src="./../assets/images/decorations/decorations_square_dots.png"
         />
       </div>
