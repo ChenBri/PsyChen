@@ -1,14 +1,13 @@
 const observe = (section, animated, removeClass) => {
   let obsOptions = {
     root: null,
-    threshold: 0.8,
+    threshold: 0.75,
   };
 
   let obsCallback = function (entries, observer) {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         animated.classList.remove(removeClass);
-        console.log("Observed", animated);
         observer.unobserve(section);
       }
     });
