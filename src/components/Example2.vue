@@ -19,6 +19,12 @@ export default {
   },
   mounted() {
     observe(example_2, example_2_circle, "scale-0", 0.3);
+    observe(
+      contact_me,
+      example_decoration_square_dots,
+      ["-translate-y-24", "translate-x-24"],
+      0.05,
+    );
   },
 };
 </script>
@@ -84,8 +90,9 @@ export default {
         ></iframe>
 
         <img
-          class="absolute -bottom-16 md:-bottom-20 -left-16 md:-left-20 w-48 -z-10"
+          class="absolute -bottom-16 md:-bottom-20 -left-16 md:-left-20 w-48 -z-10 duration-1000 -translate-y-24 translate-x-24"
           src="./../assets/images/decorations/decorations_square_dots.png"
+          id="example_decoration_square_dots"
         />
       </div>
     </div>
