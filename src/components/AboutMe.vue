@@ -1,9 +1,13 @@
 <script>
 import ParticlesBackground from "./ParticlesBackground.vue";
+import { scrollToId } from "../scripts/scrollFunction";
 
 export default {
   components: {
     ParticlesBackground,
+  },
+  methods: {
+    scrollToId,
   },
 };
 </script>
@@ -56,8 +60,9 @@ export default {
         </div>
       </div>
       <div class="flex justify-center lg:justify-start">
-        <a href="#contact_me" class="">
+        <a>
           <button
+            @click="scrollToId(`contact_me`)"
             class="px-10 py-4 mt-12 lg:mt-6 bg-psy-blue rounded-lg text-white font-quicksand"
           >
             Contant Me

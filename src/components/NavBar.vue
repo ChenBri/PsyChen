@@ -1,4 +1,6 @@
 <script>
+import { scrollToId } from "../scripts/scrollFunction";
+
 export default {
   data() {
     return {
@@ -16,6 +18,7 @@ export default {
         this.burgerMenu = true;
       }
     },
+    scrollToId,
   },
   mounted() {
     window.addEventListener("resize", this.resize);
@@ -48,13 +51,39 @@ export default {
         />
       </a>
       <ul class="flex flex-col md:flex-row gap-6 items-center">
-        <li><a href="#about_me" @click="toggle">About Me</a></li>
-        <li><a href="#my_service" @click="toggle">My Service</a></li>
-        <li><a href="#example_1" @click="toggle">Examples</a></li>
         <li>
           <a
-            href="#contact_me"
-            @click="toggle"
+            @click="
+              scrollToId(`about_me`);
+              toggle();
+            "
+            >About Me</a
+          >
+        </li>
+        <li>
+          <a
+            @click="
+              scrollToId(`my_service`);
+              toggle();
+            "
+            >My Service</a
+          >
+        </li>
+        <li>
+          <a
+            @click="
+              scrollToId(`example_1`);
+              toggle();
+            "
+            >Examples</a
+          >
+        </li>
+        <li>
+          <a
+            @click="
+              scrollToId(`contact_me`);
+              toggle();
+            "
             class="border-psy-blue border-2 p-3 rounded-xl hover:border-white text-white hover:text-psy-blue !duration-500"
             >Contant Me</a
           >

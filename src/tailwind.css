@@ -40,6 +40,9 @@
   span {
     @apply bg-psy-blue;
   }
+  a {
+    cursor: pointer;
+  }
 }
 
 @layer utilities {
