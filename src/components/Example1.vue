@@ -1,5 +1,7 @@
 <script>
 import FlowImage from "./FlowImage.vue";
+import { observe } from "./../scripts/observeFunction";
+
 export default {
   data() {
     return {
@@ -15,6 +17,14 @@ export default {
   },
   components: {
     FlowImage,
+  },
+  mounted() {
+    observe(
+      example_1,
+      example_1_squares,
+      ["translate-y-24", "-translate-x-24"],
+      0.6,
+    );
   },
 };
 </script>
@@ -71,7 +81,7 @@ export default {
 
       <div class="relative">
         <iframe
-          class="airtable-embed mt-12 lg:mt-24 rounded-lg"
+          class="relative airtable-embed mt-12 lg:mt-24 rounded-lg z-20"
           src="https://airtable.com/embed/shrd3r8uU3J7O5zFX?backgroundColor=cyan"
           frameborder="0"
           onmousewheel=""
@@ -80,7 +90,8 @@ export default {
           style="background: transparent; border: 1px solid #ccc"
         ></iframe>
         <img
-          class="absolute -top-4 2xl:-top-12 -right-4 2xl:-right-12 -z-10 w-32"
+          id="example_1_squares"
+          class="absolute -top-4 2xl:-top-12 -right-4 2xl:-right-12 z-10 w-32 duration-1000 translate-y-24 -translate-x-24"
           src="./../assets/images/decorations/decorations_squares.png"
         />
       </div>

@@ -18,7 +18,7 @@ export default {
     FlowImage,
   },
   mounted() {
-    observe(example_2, example_2_circle, "scale-0", 0.3);
+    observe(example_2, example_2_circle, "scale-0", 0.4);
     observe(
       contact_me,
       example_decoration_square_dots,
