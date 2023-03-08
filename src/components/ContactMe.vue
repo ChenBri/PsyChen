@@ -75,40 +75,45 @@ export default {
                 required
                 class="col-span-4 row-span-3 rounded-md bg-psy-icon-dark-blue/[0.1] p-2 font-quicksand text-[16px] text-white"
               />
-
-              <button
-                type="submit"
-                class="bg-psy-blue mr-4 sm:mr-12 col-span-2 2xl:col-span-1"
-              >
-                Submit
-              </button>
-              <div
-                class="flex col-span-3 sm:col-span-2 justify-around col-start-3 mr-4 sm:mr-0 ml-[-16px] sm:ml-0"
-              >
-                <a href="mailto: chenbrilling@gmail.com" target="_blank">
-                  <img
-                    src="./../assets/images/gmail_icon.png"
-                    class="rounded-border-blue-small-block"
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/chen-brilling-043522230/"
-                  target="_blank"
+              <div class="col-span-4 row-span-1 flex justify-around gap-4">
+                <button
+                  type="submit"
+                  class="bg-psy-blue basis-2/5 text-base md:text-lg"
                 >
-                  <img
-                    src="./../assets/images/linkedin_icon.png"
-                    class="rounded-border-blue-small-block"
-                  />
-                </a>
-                <a
-                  href="https://discourse.psychopy.org/u/chen/"
-                  target="_blank"
-                >
-                  <img
-                    src="./../assets/images/psychopy_icon.png"
-                    class="rounded-border-blue-small-block"
-                  />
-                </a>
+                  Submit
+                </button>
+                <div class="flex basis-3/5 justify-around flex-wrap">
+                  <a href="mailto: chenbrilling@gmail.com" target="_blank">
+                    <img
+                      src="./../assets/images/gmail_icon.png"
+                      class="rounded-border-blue-small-block"
+                    />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/chen-brilling-043522230/"
+                    target="_blank"
+                  >
+                    <img
+                      src="./../assets/images/linkedin_icon.png"
+                      class="rounded-border-blue-small-block"
+                    />
+                  </a>
+                  <a
+                    href="https://discourse.psychopy.org/u/chen/"
+                    target="_blank"
+                  >
+                    <img
+                      src="./../assets/images/psychopy_icon.png"
+                      class="rounded-border-blue-small-block"
+                    />
+                  </a>
+                  <a href="https://github.com/ChenBri" target="_blank">
+                    <img
+                      src="./../assets/images/github_icon.png"
+                      class="rounded-border-blue-small-block"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </form>
