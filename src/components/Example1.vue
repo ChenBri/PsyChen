@@ -25,6 +25,12 @@ export default {
       ["translate-y-24", "-translate-x-24"],
       0.6,
     );
+    observe(
+      example_1,
+      example_1_vid_decoration,
+      ["translate-y-24", "translate-x-24"],
+      0.35,
+    );
   },
 };
 </script>
@@ -34,11 +40,12 @@ export default {
     <div class="content">
       <div class="flex flex-col-reverse lg:flex-row gap-12">
         <div class="relative basis-1/2">
-          <video class="rounded-md" autoplay muted controls loop>
+          <video class="relative rounded-md z-10" autoplay muted controls loop>
             <source src="./../assets/videos/Vid1_720p.mp4" type="video/mp4" />
           </video>
           <img
-            class="absolute -top-[3.5rem] -left-16 -z-10 w-32"
+            id="example_1_vid_decoration"
+            class="absolute -top-[3.5rem] -left-16 w-32 duration-1000 translate-y-24 translate-x-24"
             src="./../assets/images/decorations/decorations_dots.png"
           />
         </div>
