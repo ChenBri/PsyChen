@@ -46,11 +46,9 @@ export default {
             action="https://formsubmit.co/chenbrilling@gmail.com"
             method="POST"
           >
-            <input
-              type="hidden"
-              name="_next"
-              value="http://127.0.0.1:5173/thankyou"
-            />
+            <input type="hidden" name="_captcha" value="false" />
+
+            <input type="hidden" name="_next" value="" />
 
             <div class="grid grid-cols-4 grid-rows-4 gap-4 sm:gap-6 mt-4">
               <input
@@ -68,13 +66,14 @@ export default {
                 class="col-span-4 xl:col-span-2 rounded-md bg-psy-icon-dark-blue/[0.1] p-2 py-4 font-quicksand text-[16px] text-white"
               />
 
-              <input
+              <textarea
                 type="text"
                 name="text"
                 placeholder="Message"
                 required
-                class="col-span-4 row-span-3 rounded-md bg-psy-icon-dark-blue/[0.1] p-2 font-quicksand text-[16px] text-white"
-              />
+                class="col-span-4 row-span-3 rounded-md bg-psy-icon-dark-blue/[0.1] p-2 font-quicksand text-[16px] text-white flex justify-center"
+              ></textarea>
+
               <div class="col-span-4 row-span-1 flex justify-around gap-4">
                 <button
                   type="submit"
@@ -122,3 +121,9 @@ export default {
     </div>
   </section>
 </template>
+
+<style scoped>
+input::placeholder {
+  line-height: 1;
+}
+</style>
