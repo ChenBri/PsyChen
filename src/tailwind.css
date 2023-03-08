@@ -43,6 +43,30 @@
   a {
     cursor: pointer;
   }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(53, 63, 95);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(98, 102, 126);
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(176, 180, 184, 0.625);
+  }
+  /* Handle on click */
+  ::-webkit-scrollbar-thumb:active {
+    background-color: rgba(75, 75, 75, 0.8);
+  }
 }
 
 @layer utilities {
