@@ -1,7 +1,7 @@
-const observe = (section, animated, removeClass) => {
+const observe = (section, animated, removeClass, threshold) => {
   let obsOptions = {
     root: null,
-    threshold: 0.75,
+    threshold: threshold,
   };
 
   let obsCallback = function (entries, observer) {

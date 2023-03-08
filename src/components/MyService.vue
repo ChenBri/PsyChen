@@ -9,7 +9,7 @@ export default {
   },
   methods: {},
   mounted() {
-    observe(my_service, my_service_circle, "scale-0");
+    observe(my_service, my_service_circle, "scale-0", 0.75);
   },
 };
 </script>

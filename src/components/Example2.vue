@@ -18,7 +18,7 @@ export default {
     FlowImage,
   },
   mounted() {
-    observe(example_2, example_2_circle, "scale-0");
+    observe(example_2, example_2_circle, "scale-0", 0.3);
   },
 };
 </script>
@@ -33,7 +33,7 @@ export default {
           </video>
           <img
             src="./../assets/images/decorations/decorations_circle.png"
-            class="absolute -z-10 -right-24 -bottom-8 lg:bottom-24 xl:-bottom-16 w-48 md:w-64 xl:w-72 duration-1000 scale-0"
+            class="absolute -z-10 -right-24 -bottom-8 lg:bottom-24 xl:-bottom-16 w-48 md:w-64 xl:w-72 duration-[2000ms] scale-0"
             id="example_2_circle"
           />
         </div>
