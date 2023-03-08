@@ -41,7 +41,7 @@ export default {
         <div class="flex basis-2/5 justify-end mt-12">
           <div class="relative w-[80%]">
             <img
-              src="../assets/images/Placeholder.png"
+              src="../assets/images/profile/Chen Brilling_temp.png"
               class="rounded-border-blue-big"
             />
             <img
