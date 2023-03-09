@@ -97,6 +97,7 @@ export default {
 
       <div class="relative">
         <iframe
+          name="Example 1 Airtable Database"
           class="relative airtable-embed mt-12 lg:mt-24 rounded-lg z-20"
           src="https://airtable.com/embed/shrd3r8uU3J7O5zFX?backgroundColor=cyan"
           frameborder="0"
