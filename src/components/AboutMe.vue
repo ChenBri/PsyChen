@@ -42,7 +42,7 @@ export default {
           <div class="relative w-[80%]">
             <img
               src="../assets/images/profile/Chen_Brilling_temp.png"
-              alt="Image showing Chen Brilling"
+              alt="Chen Brilling"
               class="rounded-border-blue-big"
             />
             <img
