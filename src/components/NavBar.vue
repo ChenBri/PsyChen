@@ -42,7 +42,7 @@ export default {
     </div>
     <div
       v-if="!burgerMenu || this.windowWidth >= 768"
-      class="flex flex-col md:flex-row justify-between px-32 md:px-24 py-4"
+      class="flex flex-col md:flex-row justify-between md:px-24 py-4"
     >
       <a href="/">
         <img
