@@ -10,7 +10,7 @@ export default {
 
 <template>
   <div @click="$emit('toggleImage')">
-    <img class="center-absolute" :src="image" />
+    <img class="center-absolute" :src="image" alt="Flow image" />
   </div>
 </template>
 

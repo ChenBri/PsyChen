@@ -47,6 +47,7 @@ export default {
       <a href="/">
         <img
           src="../assets/images/logo_horizontal.png"
+          alt="Chen Brilling Logo"
           class="w-32 h-auto m-auto md:m-0 pb-4 md:pb-0 p-0"
         />
       </a>
@@ -91,7 +92,11 @@ export default {
       </ul>
     </div>
     <div v-else class="flex justify-between px-4">
-      <img src="../assets/images/logo_horizontal.png" class="w-32 py-2" />
+      <img
+        src="../assets/images/logo_horizontal.png"
+        alt="Chen Brilling Logo"
+        class="w-32 py-2"
+      />
     </div>
   </nav>
 </template>

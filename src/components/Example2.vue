@@ -41,6 +41,7 @@ export default {
             src="./../assets/images/decorations/decorations_circle.png"
             class="absolute -z-10 -right-24 -bottom-8 lg:bottom-24 xl:-bottom-16 w-48 md:w-64 xl:w-72 duration-[2000ms] scale-0"
             id="example_2_circle"
+            alt="circle decoration"
           />
         </div>
         <div class="basis-1/2">
@@ -62,7 +63,11 @@ export default {
             class="flex flex-row justify-center lg:justify-start gap-4 lg:gap-8 mt-6"
           >
             <button class="flex items-center gap-2 p-2">
-              <img class="w-8 h-8" src="./../assets/images/github_button.png" />
+              <img
+                class="w-8 h-8"
+                src="./../assets/images/github_button.png"
+                alt="Github repository icon"
+              />
               <p class="px-1">
                 <a
                   href="https://github.com/ChenBri/Cue-Reactivity-Psycholoy-Experiment"
@@ -72,7 +77,11 @@ export default {
               </p>
             </button>
             <button @click="toggleImage" class="flex items-center gap-2 px-2">
-              <img class="w-8 h-8" src="./../assets/images/flow_button.png" />
+              <img
+                class="w-8 h-8"
+                src="./../assets/images/flow_button.png"
+                alt="Flow icon"
+              />
               <p class="px-1">Flow</p>
             </button>
           </div>
@@ -93,6 +102,7 @@ export default {
           class="absolute -bottom-16 md:-bottom-20 -left-16 md:-left-20 w-48 -z-10 duration-1000 -translate-y-24 translate-x-24"
           src="./../assets/images/decorations/decorations_square_dots.png"
           id="example_decoration_square_dots"
+          alt="square and dots decoration"
         />
       </div>
     </div>

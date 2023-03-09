@@ -15,7 +15,10 @@ export default {
         © 2023 Chen Brilling. All Rights Reserved.
       </p>
       <a @click="scrollToId(`navbar`)"
-        ><img src="./../assets/images/logo_horizontal.png" class="w-32"
+        ><img
+          src="./../assets/images/logo_horizontal.png"
+          alt="Chen Brilling Logo"
+          class="w-32"
       /></a>
     </div>
   </footer>

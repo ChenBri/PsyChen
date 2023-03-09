@@ -42,18 +42,22 @@ export default {
           <div class="relative w-[80%]">
             <img
               src="../assets/images/profile/Chen_Brilling_temp.png"
+              alt="Image showing Chen Brilling"
               class="rounded-border-blue-big"
             />
             <img
               src="../assets/images/psychopy_logo.png"
+              alt="PsychoPy logo"
               class="left-[-70px] sm:left-[-80px] lg:left-[-25px] xl:left-[10px] lg:top-[10px] bottom-[195px] rounded-border-blue-small-abs"
             />
             <img
               src="../assets/images/python_logo.png"
+              alt="Python logo"
               class="left-[-60px] sm:left-[-60px] lg:left-[-60px] xl:left-[-40px] lg:top-[80px] bottom-[115px] sm:bottom-[110px] rounded-border-blue-small-abs"
             />
             <img
               src="../assets/images/javascript_logo.png"
+              alt="JavaScript logo"
               class="left-[-30px] sm:left-[-20px] lg:left-[-60px] lg:top-[170px] bottom-[35px] rounded-border-blue-small-abs"
             />
           </div>

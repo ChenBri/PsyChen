@@ -12,6 +12,7 @@ export default {
   <section id="contact_me" class="bg-psy-bg-dark relative">
     <img
       id="contant_me_dots"
+      alt="dots decoration"
       class="absolute right-[-1.25rem] md:right-[0.5rem] xl:right-[3.5rem] top-[60%] xl:top-[40%] duration-[1500ms] -translate-x-24"
       src="./../assets/images/decorations/decorations_dots.png"
     />
@@ -24,6 +25,7 @@ export default {
         >
           <img
             src="./../assets/images/contant_image.png"
+            alt="form written in HTML"
             class="object-contain rounded-t-2xl xl:rounded-t-none max-w-[80%] md:max-w-[100%]"
           />
         </div>
@@ -85,6 +87,7 @@ export default {
                   <a href="mailto: chenbrilling@gmail.com" target="_blank">
                     <img
                       src="./../assets/images/gmail_icon.png"
+                      alt="Gmail icon"
                       class="rounded-border-blue-small-block"
                     />
                   </a>
@@ -94,6 +97,7 @@ export default {
                   >
                     <img
                       src="./../assets/images/linkedin_icon.png"
+                      alt="Linkedin icon"
                       class="rounded-border-blue-small-block"
                     />
                   </a>
@@ -103,12 +107,14 @@ export default {
                   >
                     <img
                       src="./../assets/images/psychopy_icon.png"
+                      alt="PsychoPy icon"
                       class="rounded-border-blue-small-block"
                     />
                   </a>
                   <a href="https://github.com/ChenBri" target="_blank">
                     <img
                       src="./../assets/images/github_icon.png"
+                      alt="Github icon"
                       class="rounded-border-blue-small-block"
                     />
                   </a>

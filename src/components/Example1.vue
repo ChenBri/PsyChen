@@ -47,6 +47,7 @@ export default {
             id="example_1_vid_decoration"
             class="absolute -top-[3.5rem] -left-16 w-32 duration-1000 translate-y-24 translate-x-24"
             src="./../assets/images/decorations/decorations_dots.png"
+            alt="dots decoration"
           />
         </div>
 
@@ -69,7 +70,11 @@ export default {
             class="flex flex-row justify-center lg:justify-start gap-4 lg:gap-8 mt-6"
           >
             <button class="flex items-center gap-2 p-2">
-              <img class="w-8 h-8" src="./../assets/images/github_button.png" />
+              <img
+                class="w-8 h-8"
+                src="./../assets/images/github_button.png"
+                alt="Github repository icon"
+              />
               <p class="px-1">
                 <a
                   href="https://github.com/ChenBri/Grid-Psychology-Experiment"
@@ -79,7 +84,11 @@ export default {
               </p>
             </button>
             <button @click="toggleImage" class="flex items-center gap-2 px-2">
-              <img class="w-8 h-8" src="./../assets/images/flow_button.png" />
+              <img
+                class="w-8 h-8"
+                src="./../assets/images/flow_button.png"
+                alt="Flow icon"
+              />
               <p class="px-1">Flow</p>
             </button>
           </div>
@@ -100,6 +109,7 @@ export default {
           id="example_1_squares"
           class="absolute -top-4 2xl:-top-12 -right-4 2xl:-right-12 z-10 w-32 duration-1000 translate-y-24 -translate-x-24"
           src="./../assets/images/decorations/decorations_squares.png"
+          alt="squares decoration"
         />
       </div>
     </div>

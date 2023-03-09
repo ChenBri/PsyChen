@@ -59,11 +59,13 @@ export default {
         <div class="relative basis-1/2 flex items-center">
           <img
             src="./../assets/images/my_service.png"
+            alt="PsychoPy experiment showing my service"
             class="relative rounded-[15px] p-0 sm:p-6 md:p-12 xl:p-0 z-10 disable-blur"
           />
 
           <img
             src="./../assets/images/decorations/decorations_wide_circle.png"
+            alt="wide circle decoration"
             class="absolute top-[-25%] sm:top-[-5%] lg:top-[-10%] xl:top-[0%] -right-12 lg:-right-36 w-[10rem] md:w-[15rem] lg:w-[20rem] duration-1000 scale-0"
             id="my_service_circle"
           />
