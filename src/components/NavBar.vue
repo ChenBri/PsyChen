@@ -48,46 +48,44 @@ export default {
         <img
           src="../assets/images/logo_horizontal.png"
           alt="Chen Brilling Logo"
-          class="w-32 h-auto m-auto md:m-0 pb-4 md:pb-0 p-0"
+          class="w-32 h-auto m-auto md:m-0 pb-4 md:pb-0 p-0 cursor-pointer"
         />
       </a>
-      <ul class="flex flex-col md:flex-row gap-6 items-center">
-        <li>
-          <a
-            @click="
-              scrollToId(`about_me`);
-              toggle();
-            "
-            >About Me</a
-          >
+      <ul
+        class="flex flex-col md:flex-row gap-6 items-center [&>li]:cursor-pointer"
+      >
+        <li
+          @click="
+            scrollToId(`about_me`);
+            toggle();
+          "
+        >
+          About Me
         </li>
-        <li>
-          <a
-            @click="
-              scrollToId(`my_service`);
-              toggle();
-            "
-            >My Service</a
-          >
+        <li
+          @click="
+            scrollToId(`my_service`);
+            toggle();
+          "
+        >
+          My Service
         </li>
-        <li>
-          <a
-            @click="
-              scrollToId(`example_1`);
-              toggle();
-            "
-            >Examples</a
-          >
+        <li
+          @click="
+            scrollToId(`example_1`);
+            toggle();
+          "
+        >
+          Examples
         </li>
-        <li>
-          <a
-            @click="
-              scrollToId(`contact_me`);
-              toggle();
-            "
-            class="border-psy-blue border-2 p-3 rounded-xl hover:border-white text-white hover:text-psy-blue !duration-500"
-            >Contant Me</a
-          >
+        <li
+          @click="
+            scrollToId(`contact_me`);
+            toggle();
+          "
+          class="border-psy-blue border-2 p-3 rounded-xl hover:border-white text-white hover:text-psy-blue !duration-500"
+        >
+          Contant Me
         </li>
       </ul>
     </div>
