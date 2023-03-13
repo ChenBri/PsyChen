@@ -45,7 +45,7 @@ export default {
             >
           </p>
           <form
-            action="https://formsubmit.co/chenbrilling@gmail.com"
+            action="https://formsubmit.co/acb935074cb5dd30ba8776700f950d63"
             method="POST"
           >
             <input type="hidden" name="_captcha" value="false" />
