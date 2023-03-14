@@ -45,7 +45,7 @@ export default {
             >
           </p>
 
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" netlify>
             <!-- <input type="hidden" name="_captcha" value="false" />
 
             <input type="hidden" name="_next" value="https://psychen.dev/" /> -->
