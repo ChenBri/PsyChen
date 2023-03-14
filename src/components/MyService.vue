@@ -1,6 +1,6 @@
 <script>
 import service_list from "./../assets/json/service_list.json";
-import { observe } from "./../scripts/observeFunction";
+import { observe, observeAnimation } from "./../scripts/observeFunction";
 export default {
   data() {
     return {
@@ -10,6 +10,16 @@ export default {
   methods: {},
   mounted() {
     observe(my_service, my_service_circle, "scale-0", 0.75);
+
+    let services = [service_1, service_2, service_3, service_4];
+    for (let i = 0; i < services.length; i++) {
+      observeAnimation(
+        my_service,
+        services[i],
+        "text-psy-blue",
+        0.49 + (i + 2) / 10,
+      );
+    }
   },
 };
 </script>
@@ -34,6 +44,7 @@ export default {
               <div
                 class="flex py-4"
                 :class="index !== 3 ? 'border-b-2 border-white' : ''"
+                :id="item.service_id"
               >
                 <i
                   :class="item.service_icon"
