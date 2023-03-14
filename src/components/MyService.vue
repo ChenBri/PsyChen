@@ -11,15 +11,15 @@ export default {
   mounted() {
     observe(my_service, my_service_circle, "scale-0", 0.75);
 
-    let services = [service_1, service_2, service_3, service_4];
-    for (let i = 0; i < services.length; i++) {
-      observeAnimation(
-        my_service,
-        services[i],
-        "text-psy-blue",
-        0.49 + (i + 2) / 10,
-      );
-    }
+    // let services = [service_1, service_2, service_3, service_4];
+    // for (let i = 0; i < services.length; i++) {
+    //   observeAnimation(
+    //     my_service,
+    //     services[i],
+    //     "text-psy-blue",
+    //     0.49 + (i + 2) / 10,
+    //   );
+    // }
   },
 };
 </script>
