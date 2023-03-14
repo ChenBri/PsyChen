@@ -6,7 +6,7 @@ export default {
   data() {
     return {
       image2Open: false,
-      image2URL: "./src/assets/images/exp2_flow.png",
+      image2URL: "/dynamic-images/exp2_flow.png",
     };
   },
   methods: {

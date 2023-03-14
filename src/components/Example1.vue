@@ -6,7 +6,7 @@ export default {
   data() {
     return {
       image1Open: false,
-      image1URL: "./src/assets/images/exp1_flow.png",
+      image1URL: "/dynamic-images/exp1_flow.png",
     };
   },
 
