@@ -28,7 +28,7 @@ export default {
 </script>
 
 <template>
-  <nav id="navbar">
+  <nav id="navbar" class="relative">
     <div @click="toggle" class="absolute -right-2 py-4">
       <div
         v-show="this.windowWidth <= 768"
@@ -42,13 +42,13 @@ export default {
     </div>
     <div
       v-if="!burgerMenu || this.windowWidth >= 768"
-      class="flex flex-col md:flex-row justify-between md:px-24 py-4"
+      class="flex flex-col md:flex-row justify-between md:px-24 py-4 items-center"
     >
       <a href="/">
         <img
           src="../assets/images/logo_horizontal.png"
           alt="Chen Brilling Logo"
-          class="w-32 h-auto m-auto md:m-0 pb-4 md:pb-0 p-0 cursor-pointer"
+          class="w-32 h-auto pb-4 md:pb-0 p-0 cursor-pointer"
         />
       </a>
       <ul
