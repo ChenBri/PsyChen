@@ -48,8 +48,8 @@ export default {
           <form
             name="contact"
             method="POST"
+            netlify-honeypot="bot-field"
             data-netlify="true"
-            data-netlify-honeypot="bot-field"
           >
             <!-- <input type="hidden" name="_captcha" value="false" />
 
