@@ -75,12 +75,12 @@ export default {
               ></textarea>
 
               <div class="col-span-4 row-span-1 flex justify-around gap-4">
-                <button
+                <input
                   type="submit"
+                  value="Submit"
                   class="bg-psy-blue basis-2/5 text-base md:text-lg"
-                >
-                  Submit
-                </button>
+                />
+
                 <div class="flex basis-3/5 justify-around flex-wrap">
                   <a href="mailto: chenbrilling@gmail.com" target="_blank">
                     <img
