@@ -83,11 +83,10 @@ export default {
           <form
             name="contact"
             method="POST"
+            action="/"
             netlify-honeypot="bot-field"
             data-netlify="true"
           >
-           
-
             <input type="hidden" name="form-name" value="contact" />
 
             <div class="grid grid-cols-4 grid-rows-4 gap-4 sm:gap-6 mt-4">
