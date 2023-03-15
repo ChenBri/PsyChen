@@ -45,10 +45,14 @@ export default {
             >
           </p>
 
-          <form method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true">
             <!-- <input type="hidden" name="_captcha" value="false" />
 
+
+
             <input type="hidden" name="_next" value="https://psychen.dev/" /> -->
+
+            <input type="hidden" name="form-name" value="contact" />
 
             <div class="grid grid-cols-4 grid-rows-4 gap-4 sm:gap-6 mt-4">
               <input
