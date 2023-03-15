@@ -45,7 +45,7 @@ export default {
             >
           </p>
 
-          <form
+          <!-- <form
             name="contact-speaker"
             netlify
             netlify-honeypot="bot-field"
@@ -79,8 +79,8 @@ export default {
             <p>
               <button type="submit">Send</button>
             </p>
-          </form>
-          <!-- <form
+          </form> -->
+          <form
             name="contact"
             method="POST"
             netlify-honeypot="bot-field"
@@ -159,7 +159,7 @@ export default {
                 </div>
               </div>
             </div>
-          </form> -->
+          </form>
         </div>
       </div>
     </div>
