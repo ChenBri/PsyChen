@@ -86,6 +86,7 @@ export default {
             netlify-honeypot="bot-field"
             data-netlify="true"
           >
+            <input type="hidden" name="form-name" value="contact" />
             <div class="grid grid-cols-4 grid-rows-4 gap-4 sm:gap-6 mt-4">
               <input
                 type="text"
