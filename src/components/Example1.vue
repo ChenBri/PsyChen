@@ -7,12 +7,16 @@ export default {
     return {
       image1Open: false,
       image1URL: "/dynamic-images/exp1_flow.png",
+      showMessage: true,
     };
   },
 
   methods: {
     toggleImage() {
       this.image1Open = !this.image1Open;
+    },
+    hideMessage() {
+      this.showMessage = false;
     },
   },
   components: {
@@ -83,14 +87,28 @@ export default {
                 >
               </p>
             </button>
-            <button @click="toggleImage" class="flex items-center gap-2 px-2">
-              <img
-                class="w-8 h-8"
-                src="./../assets/images/flow_button.png"
-                alt="Flow icon"
-              />
-              <p class="px-1">Flow</p>
-            </button>
+            <div class="relative">
+              <button
+                @click="
+                  toggleImage();
+                  hideMessage();
+                "
+                class="flex items-center gap-2 px-2"
+              >
+                <img
+                  class="w-8 h-8"
+                  src="./../assets/images/flow_button.png"
+                  alt="Flow icon"
+                />
+                <p class="px-1">Flow</p>
+              </button>
+              <div
+                v-show="showMessage"
+                class="absolute font-quicksand text-md text-white -bottom-6 -right-6 animate-wiggle"
+              >
+                Click me!
+              </div>
+            </div>
           </div>
         </div>
       </div>

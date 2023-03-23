@@ -21,6 +21,15 @@ module.exports = {
       borderOpacity: {
         15: "0.15",
       },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-2deg)" },
+          "50%": { transform: "rotate(-8deg)" },
+        },
+      },
+      animation: {
+        wiggle: "wiggle 1600ms ease-in-out infinite",
+      },
     },
     plugins: [],
   },
