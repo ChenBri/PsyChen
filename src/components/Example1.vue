@@ -102,12 +102,12 @@ export default {
                 />
                 <p class="px-1">Flow</p>
               </button>
-              <div
+              <!-- <div
                 v-show="showMessage"
                 class="absolute font-quicksand text-md text-white -bottom-6 -right-6 animate-wiggle"
               >
                 Click me!
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
