@@ -6,8 +6,8 @@
 [PsychoPy®](https://www.psychopy.org/) is a free cross-platform package allowing you to run a wide range of experiments in the behavioral sciences (neuroscience, psychology, psychophysics, linguistics...).
 
 ## [PsyChen.Dev](https://psychen.dev/)
------
 
+-----
 
 #### Project Setup
 
