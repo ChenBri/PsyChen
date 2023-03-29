@@ -7,7 +7,6 @@
 
 ## [PsyChen.Dev](https://psychen.dev/)
 
------
 
 #### Project Setup
 
