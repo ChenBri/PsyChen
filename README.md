@@ -1,29 +1,33 @@
-# PsyChen
+![Website preview](./src/assets/images/psygit.png)
 
-This template should help get you started developing with Vue 3 in Vite.
+**PsyChen - PsychoPy Experiment Creation**
+[PsyChen](https://psychen.dev/) is my personal project/website, where I offer customized PsychoPy experiment creation, troubleshooting, and guidance.
+[PsychoPy®](https://www.psychopy.org/) is a free cross-platform package allowing you to run a wide range of experiments in the behavioral sciences (neuroscience, psychology, psychophysics, linguistics...).
 
-## Recommended IDE Setup
+##### [PsyChen.Dev](https://psychen.dev/)
+-----
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+#### Project Setup
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+#### Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+#### Compile and Minify for Production
 
 ```sh
 npm run build
 ```
+
+----
+
+- Created with Vue.js and TailwindCSS.
+- Deployed with Netlify.
+- Created by Chen Brilling.
