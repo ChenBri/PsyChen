@@ -153,6 +153,13 @@ export default {
                       class="rounded-border-blue-small-block"
                     />
                   </a>
+                  <a href="https://www.fiverr.com/eyalchen" target="_blank">
+                    <img
+                      src="./../assets/images/fiverr_icon.png"
+                      alt="Fiverr icon"
+                      class="rounded-border-blue-small-block"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
