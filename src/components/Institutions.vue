@@ -6,32 +6,32 @@ export default {
         {
           name: "Bar-Ilan University",
           path: "dynamic-images/inst-biu.png",
-          link: "",
+          link: "https://www.biu.ac.il/en",
         },
         {
           name: "Doha Institute for Graduate Studies",
           path: "dynamic-images/inst-doha.png",
-          link: "",
+          link: "www.dohainstitute.edu.qa",
         },
         {
           name: "University of Nottingham",
           path: "dynamic-images/inst-uon.png",
-          link: "",
+          link: "https://www.nottingham.ac.uk/",
         },
         {
           name: "University of Cambridge",
           path: "dynamic-images/inst-camb.png",
-          link: "",
+          link: "https://www.cam.ac.uk/",
         },
         {
           name: "Reichman University",
           path: "dynamic-images/inst-ru.png",
-          link: "",
+          link: "https://www.runi.ac.il/en",
         },
         {
           name: "George Mason University",
           path: "dynamic-images/inst-ma.png",
-          link: "",
+          link: "https://www.gmu.edu/",
         },
       ],
     };
