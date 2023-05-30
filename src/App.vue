@@ -4,7 +4,7 @@ import AboutMe from "./components/AboutMe.vue";
 import MyService from "./components/MyService.vue";
 import Example1 from "./components/Example1.vue";
 import Example2 from "./components/Example2.vue";
-import Instutions from "./components/Instutions.vue";
+import Institutions from "./components/Institutions.vue";
 import ContactMe from "./components/ContactMe.vue";
 import Footer from "./components/Footer.vue";
 
@@ -15,7 +15,7 @@ export default {
     MyService,
     Example1,
     Example2,
-    Instutions,
+    Institutions,
     ContactMe,
     Footer,
   },
@@ -28,7 +28,7 @@ export default {
   <MyService />
   <Example1 />
   <Example2 />
-  <Instutions />
+  <Institutions />
   <ContactMe />
   <Footer />
 </template>
