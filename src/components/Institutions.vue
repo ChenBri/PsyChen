@@ -49,12 +49,14 @@ export default {
         class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mx-12 mb-6 bg-[#0f1d4a] rounded-xl border-2 border-white border-opacity-70 p-2"
       >
         <div v-for="image in imagesList">
-          <img
-            :src="image.path"
-            :alt="image.name"
-            :title="image.name"
-            class="p-2 w-28 h-28 mx-auto"
-          />
+          <a :href="image.link" target="_blank">
+            <img
+              :src="image.path"
+              :alt="image.name"
+              :title="image.name"
+              class="p-2 w-28 h-28 mx-auto inst-border"
+            />
+          </a>
           <div class="flex items-center justify-center">
             <div
               class="text-center text-white font-roboto w-4/5 text-sm md:text-base"
