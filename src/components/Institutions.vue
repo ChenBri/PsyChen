@@ -11,7 +11,7 @@ export default {
         {
           name: "Doha Institute for Graduate Studies",
           path: "dynamic-images/inst-doha.png",
-          link: "www.dohainstitute.edu.qa",
+          link: "https://www.dohainstitute.edu.qa",
         },
         {
           name: "University of Nottingham",
