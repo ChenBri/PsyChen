@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <section id="contact_me" class="bg-psy-bg-dark relative">
+  <section id="contact_me" class="bg-psy-bg-light relative">
     <img
       id="contant_me_dots"
       alt="dots decoration"
@@ -17,7 +17,7 @@ export default {
       src="./../assets/images/decorations/decorations_dots.png"
     />
     <div
-      class="relative bg-psy-bg-light mx-4 md:mx-12 xl:mx-24 rounded-2xl z-10"
+      class="relative bg-psy-bg-dark mx-4 md:mx-12 xl:mx-24 rounded-2xl z-10"
     >
       <div class="relative flex flex-col xl:flex-row">
         <div
