@@ -38,8 +38,7 @@ export default {
             </p>
 
             <p class="mb-4">
-              I have also been interning as a Front-End Developer at the
-              platform <span class="text-purple-400">Labvanced</span>, a
+              I have also been interning as a Front-End Developer at <span class="text-purple-400">Labvanced</span>, a
               platform for creating online experiments.
             </p>
 
