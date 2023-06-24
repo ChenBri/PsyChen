@@ -40,7 +40,7 @@ export default {
           </p>
           <p>
             You can do so through the form below or via your email to:
-            <span class="!bg-transparent underline"
+            <span class="!bg-transparent underline "
               >chenbrilling@gmail.com</span
             >
           </p>

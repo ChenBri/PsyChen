@@ -14,7 +14,7 @@ export default {
       <p class="text-[12px] md:text-[14px]">
         © 2023 Chen Brilling. All Rights Reserved.
       </p>
-      <span class="cursor-pointer" @click="scrollToId(`navbar`)"
+      <span class="cursor- bg-psy-blue" @click="scrollToId(`navbar`)"
         ><img
           src="./../assets/images/logo_horizontal.png"
           alt="Chen Brilling Logo"

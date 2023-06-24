@@ -35,9 +35,9 @@ export default {
         id="nav-icon"
         :class="{ open: !burgerMenu }"
       >
-        <span></span>
-        <span></span>
-        <span></span>
+        <span class="bg-psy-blue"></span>
+        <span class="bg-psy-blue"></span>
+        <span class="bg-psy-blue"></span>
       </div>
     </div>
     <div

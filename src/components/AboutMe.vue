@@ -21,21 +21,29 @@ export default {
           <h1>PsyChen</h1>
           <h2>PsychoPy Experiment Creation</h2>
           <div>
-            <p class="leading-12">
-              Hey, my name is Chen Brilling. I'm a B.A. student in Psychology at
-              Bar-Ilan University. During the previous two years, I've worked as
-              a research assistant in the Social Neuroscience Lab, where I
-              developed a keen interest in experiment creation. As a research
-              assistant, I've gained much hands-on experience with various
-              tools, including PsychoPy, Labvanced, and Qualitrics. Until
-              recently, I have also been interning as a Front-End Developer in
-              Labvanced, another platform for creating online experiments.
+            <p>
+              Hey! My name is
+              <span>Chen Brilling</span>.
             </p>
-            <p class="leading-12 mt-2">
-              I have experience with data processing tools, including SPSS,
-              Jamovi, and Excel (VBA). I also have expertise in design and
-              animation tools such as Photoshop, After Effects, and Illustrator,
-              which always come in handy.
+            <p class="mb-4">
+              I am a B.A. Student in Psychology at Bar-Ilan University.
+            </p>
+
+            <p class="mb-4">
+              For the past two years, I worked as a Research Assistant in the
+              Social Neuroscience Lab. In this role, I gained a broad, hands-on
+              experience with various tools, including: PsychoPy and Qualitrics.
+            </p>
+
+            <p class="mb-4">
+              I have also been interning as a Front-End Developer at the
+              platform Labvanced, for creating online experiments.
+            </p>
+
+            <p>
+              In addition, I have experience with data processing tools,
+              including; SPSS, Jamovi, Excel (VBA), and Media tools such as
+              Photoshop, After Effects, and Illustrator.
             </p>
           </div>
           <div class="hidden lg:flex justify-center lg:justify-start">
