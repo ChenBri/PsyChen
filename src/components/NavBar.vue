@@ -85,7 +85,7 @@ export default {
           "
           class="border-psy-blue border-2 p-3 rounded-xl hover:border-white text-white hover:text-psy-blue !duration-500"
         >
-          Contant Me
+          Contact Me
         </li>
       </ul>
     </div>

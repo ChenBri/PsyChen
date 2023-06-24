@@ -58,7 +58,7 @@ export default {
               @click="scrollToId(`contact_me`)"
               class="px-10 py-4 mt-12 lg:mt-6 bg-psy-blue rounded-lg text-white font-quicksand"
             >
-              Contant Me
+              Contact Me
             </button>
           </div>
         </div>
@@ -92,7 +92,7 @@ export default {
           @click="scrollToId(`contact_me`)"
           class="px-10 py-4 mt-12 lg:mt-6 bg-psy-blue rounded-lg text-white font-quicksand"
         >
-          Contant Me
+          Contact Me
         </button>
       </div>
     </div>
