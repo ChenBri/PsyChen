@@ -32,6 +32,6 @@ module.exports = {
       },
     },
     plugins: [],
-    important: "#app",
+    important: true,
   },
 };

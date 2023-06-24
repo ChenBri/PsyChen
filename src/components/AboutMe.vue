@@ -23,7 +23,7 @@ export default {
           <div>
             <p>
               Hey! My name is
-              <span>Chen Brilling</span>.
+              <span class="text-cyan-400">Chen Brilling</span>.
             </p>
             <p class="mb-4">
               I am a B.A. Student in Psychology at Bar-Ilan University.
@@ -32,18 +32,25 @@ export default {
             <p class="mb-4">
               For the past two years, I worked as a Research Assistant in the
               Social Neuroscience Lab. In this role, I gained a broad, hands-on
-              experience with various tools, including: PsychoPy and Qualitrics.
+              experience with various tools, including:
+              <span class="text-purple-400">PsychoPy</span> and
+              <span class="text-purple-400">Qualitrics</span>.
             </p>
 
             <p class="mb-4">
               I have also been interning as a Front-End Developer at the
-              platform Labvanced, for creating online experiments.
+              platform <span class="text-purple-400">Labvanced</span>, a
+              platform for creating online experiments.
             </p>
 
             <p>
               In addition, I have experience with data processing tools,
-              including; SPSS, Jamovi, Excel (VBA), and Media tools such as
-              Photoshop, After Effects, and Illustrator.
+              including; <span class="text-amber-400">SPSS</span>,
+              <span class="text-amber-400">Jamovi</span>,
+              <span class="text-amber-400">Excel (VBA)</span>, and Media tools
+              such as <span class="text-amber-200">Photoshop</span>,
+              <span class="text-amber-200">After Effect</span>, and
+              <span class="text-amber-200">Illustrator</span>.
             </p>
           </div>
           <div class="hidden lg:flex justify-center lg:justify-start">
